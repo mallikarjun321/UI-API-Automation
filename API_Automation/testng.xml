@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG_Suite">
+  <test thread-count="5" name="Smoke_Test">
+    <classes>
+    <class name="UI_Tests.webdriver_commands"/>
+      </classes>   
+  </test> <!-- Smoke_Test -->
+</suite> <!-- TestNG_Suite -->
